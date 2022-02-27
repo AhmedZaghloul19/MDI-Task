@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0413F60D27CAEE700060849F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F60C27CAEE700060849F /* AppDelegate.swift */; };
-		0413F60F27CAEE700060849F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F60E27CAEE700060849F /* SceneDelegate.swift */; };
-		0413F61127CAEE700060849F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F61027CAEE700060849F /* ViewController.swift */; };
 		0413F61427CAEE700060849F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413F61227CAEE700060849F /* Main.storyboard */; };
 		0413F61627CAEE730060849F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413F61527CAEE730060849F /* Assets.xcassets */; };
 		0413F61927CAEE730060849F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413F61727CAEE730060849F /* LaunchScreen.storyboard */; };
+		0413F62427CAEFB40060849F /* CurrencyConversionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F62227CAEFB40060849F /* CurrencyConversionVC.swift */; };
+		0413F62527CAEFB40060849F /* CurrencyConversionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413F62327CAEFB40060849F /* CurrencyConversionVC.xib */; };
+		0413F62727CAF0100060849F /* CurrencyConversionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F62627CAF0100060849F /* CurrencyConversionVM.swift */; };
+		046D141C27CAF5C600627A75 /* RatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D141B27CAF5C600627A75 /* RatesResponse.swift */; };
+		046D141F27CAF70E00627A75 /* FetchRatesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D141E27CAF70E00627A75 /* FetchRatesUseCase.swift */; };
+		046D142427CAF7D600627A75 /* RatesRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D142327CAF7D600627A75 /* RatesRemoteDataSource.swift */; };
+		91A2979D87466BD2537ADAAF /* Pods_MDI_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F481616621E5151C319A5FE /* Pods_MDI_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0413F60927CAEE700060849F /* MDI-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDI-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413F60C27CAEE700060849F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0413F60E27CAEE700060849F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0413F61027CAEE700060849F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0413F61327CAEE700060849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0413F61527CAEE730060849F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0413F61827CAEE730060849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0413F61A27CAEE730060849F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0413F62227CAEFB40060849F /* CurrencyConversionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionVC.swift; sourceTree = "<group>"; };
+		0413F62327CAEFB40060849F /* CurrencyConversionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyConversionVC.xib; sourceTree = "<group>"; };
+		0413F62627CAF0100060849F /* CurrencyConversionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionVM.swift; sourceTree = "<group>"; };
+		046D141B27CAF5C600627A75 /* RatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesResponse.swift; sourceTree = "<group>"; };
+		046D141E27CAF70E00627A75 /* FetchRatesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRatesUseCase.swift; sourceTree = "<group>"; };
+		046D142327CAF7D600627A75 /* RatesRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRemoteDataSource.swift; sourceTree = "<group>"; };
+		7F481616621E5151C319A5FE /* Pods_MDI_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDI_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B04CCFB6EF04663E78E45C /* Pods-MDI-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDI-Task.release.xcconfig"; path = "Target Support Files/Pods-MDI-Task/Pods-MDI-Task.release.xcconfig"; sourceTree = "<group>"; };
+		E456DD9325615D7CC1F9E025 /* Pods-MDI-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDI-Task.debug.xcconfig"; path = "Target Support Files/Pods-MDI-Task/Pods-MDI-Task.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A2979D87466BD2537ADAAF /* Pods_MDI_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0413F60B27CAEE700060849F /* MDI-Task */,
 				0413F60A27CAEE700060849F /* Products */,
+				042C95754728CE504077454C /* Pods */,
+				39869DECB0244AB5B45DD229 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +72,75 @@
 			isa = PBXGroup;
 			children = (
 				0413F60C27CAEE700060849F /* AppDelegate.swift */,
-				0413F60E27CAEE700060849F /* SceneDelegate.swift */,
-				0413F61027CAEE700060849F /* ViewController.swift */,
+				046D142227CAF7B600627A75 /* Repositories */,
+				046D141D27CAF6D100627A75 /* UseCases */,
+				046D141A27CAF55600627A75 /* Models */,
+				0413F62027CAEF4A0060849F /* Scenes */,
 				0413F61227CAEE700060849F /* Main.storyboard */,
 				0413F61527CAEE730060849F /* Assets.xcassets */,
 				0413F61727CAEE730060849F /* LaunchScreen.storyboard */,
 				0413F61A27CAEE730060849F /* Info.plist */,
 			);
 			path = "MDI-Task";
+			sourceTree = "<group>";
+		};
+		0413F62027CAEF4A0060849F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0413F62127CAEF840060849F /* CurrencyConversion */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0413F62127CAEF840060849F /* CurrencyConversion */ = {
+			isa = PBXGroup;
+			children = (
+				0413F62227CAEFB40060849F /* CurrencyConversionVC.swift */,
+				0413F62327CAEFB40060849F /* CurrencyConversionVC.xib */,
+				0413F62627CAF0100060849F /* CurrencyConversionVM.swift */,
+			);
+			path = CurrencyConversion;
+			sourceTree = "<group>";
+		};
+		042C95754728CE504077454C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E456DD9325615D7CC1F9E025 /* Pods-MDI-Task.debug.xcconfig */,
+				98B04CCFB6EF04663E78E45C /* Pods-MDI-Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		046D141A27CAF55600627A75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				046D141B27CAF5C600627A75 /* RatesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		046D141D27CAF6D100627A75 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				046D141E27CAF70E00627A75 /* FetchRatesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		046D142227CAF7B600627A75 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				046D142327CAF7D600627A75 /* RatesRemoteDataSource.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		39869DECB0244AB5B45DD229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F481616621E5151C319A5FE /* Pods_MDI_Task.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0413F61D27CAEE730060849F /* Build configuration list for PBXNativeTarget "MDI-Task" */;
 			buildPhases = (
+				05AC27C8CC76D86A368BD43D /* [CP] Check Pods Manifest.lock */,
 				0413F60527CAEE700060849F /* Sources */,
 				0413F60627CAEE700060849F /* Frameworks */,
 				0413F60727CAEE700060849F /* Resources */,
+				394BB43C92429E59602AC298 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +206,65 @@
 				0413F61927CAEE730060849F /* LaunchScreen.storyboard in Resources */,
 				0413F61627CAEE730060849F /* Assets.xcassets in Resources */,
 				0413F61427CAEE700060849F /* Main.storyboard in Resources */,
+				0413F62527CAEFB40060849F /* CurrencyConversionVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05AC27C8CC76D86A368BD43D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDI-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		394BB43C92429E59602AC298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDI-Task/Pods-MDI-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDI-Task/Pods-MDI-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDI-Task/Pods-MDI-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0413F60527CAEE700060849F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0413F61127CAEE700060849F /* ViewController.swift in Sources */,
+				046D141C27CAF5C600627A75 /* RatesResponse.swift in Sources */,
+				0413F62727CAF0100060849F /* CurrencyConversionVM.swift in Sources */,
+				046D141F27CAF70E00627A75 /* FetchRatesUseCase.swift in Sources */,
 				0413F60D27CAEE700060849F /* AppDelegate.swift in Sources */,
-				0413F60F27CAEE700060849F /* SceneDelegate.swift in Sources */,
+				046D142427CAF7D600627A75 /* RatesRemoteDataSource.swift in Sources */,
+				0413F62427CAEFB40060849F /* CurrencyConversionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +408,7 @@
 		};
 		0413F61E27CAEE730060849F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E456DD9325615D7CC1F9E025 /* Pods-MDI-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,12 +431,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0413F61F27CAEE730060849F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B04CCFB6EF04663E78E45C /* Pods-MDI-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
