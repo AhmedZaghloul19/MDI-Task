@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RatesResponse {
+struct RatesResponse: Decodable {
     var success: Bool
     var base: String
     var timestamp: Int

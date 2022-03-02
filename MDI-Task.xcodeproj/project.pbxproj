@@ -17,8 +17,32 @@
 		046D141C27CAF5C600627A75 /* RatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D141B27CAF5C600627A75 /* RatesResponse.swift */; };
 		046D141F27CAF70E00627A75 /* FetchRatesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D141E27CAF70E00627A75 /* FetchRatesUseCase.swift */; };
 		046D142427CAF7D600627A75 /* RatesRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D142327CAF7D600627A75 /* RatesRemoteDataSource.swift */; };
+		0487969527CEE2F6002CA862 /* HistoricalDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487969327CEE2F6002CA862 /* HistoricalDataVC.swift */; };
+		0487969627CEE2F6002CA862 /* HistoricalDataVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0487969427CEE2F6002CA862 /* HistoricalDataVC.xib */; };
+		0487969827CEEA6F002CA862 /* HistoricalDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487969727CEEA6F002CA862 /* HistoricalDataVM.swift */; };
+		0487969A27CEEB5B002CA862 /* ConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487969927CEEB5B002CA862 /* ConversionModel.swift */; };
+		0487969F27CEEDAE002CA862 /* ConversionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487969D27CEEDAE002CA862 /* ConversionHistoryCell.swift */; };
+		048796A027CEEDAE002CA862 /* ConversionHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0487969E27CEEDAE002CA862 /* ConversionHistoryCell.xib */; };
+		048796A227CEF438002CA862 /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796A127CEF438002CA862 /* LocalStorageManager.swift */; };
+		048796A727CF124D002CA862 /* HistoricalDataSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796A627CF124D002CA862 /* HistoricalDataSection.swift */; };
+		048796B727CF94AF002CA862 /* StubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796B627CF94AF002CA862 /* StubProtocol.swift */; };
+		048796B927CF94E5002CA862 /* Array+StubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796B827CF94E5002CA862 /* Array+StubProtocol.swift */; };
+		048796BC27CF95B7002CA862 /* CurrencyConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796BB27CF95B7002CA862 /* CurrencyConversionTest.swift */; };
+		048796BF27CF9613002CA862 /* ConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796BE27CF9613002CA862 /* ConversionModel.swift */; };
+		048796C227CF96FD002CA862 /* MockedRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048796C127CF96FD002CA862 /* MockedRemoteDataSource.swift */; };
+		64A1981F9694D57FEB6F065A /* Pods_MDI_Task_MDI_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919C13BDCEE5031098A6219C /* Pods_MDI_Task_MDI_TaskTests.framework */; };
 		91A2979D87466BD2537ADAAF /* Pods_MDI_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F481616621E5151C319A5FE /* Pods_MDI_Task.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048796B027CF9426002CA862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0413F60127CAEE700060849F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0413F60827CAEE700060849F;
+			remoteInfo = "MDI-Task";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0413F60927CAEE700060849F /* MDI-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDI-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,8 +57,28 @@
 		046D141B27CAF5C600627A75 /* RatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesResponse.swift; sourceTree = "<group>"; };
 		046D141E27CAF70E00627A75 /* FetchRatesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRatesUseCase.swift; sourceTree = "<group>"; };
 		046D142327CAF7D600627A75 /* RatesRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRemoteDataSource.swift; sourceTree = "<group>"; };
+		0487969327CEE2F6002CA862 /* HistoricalDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataVC.swift; sourceTree = "<group>"; };
+		0487969427CEE2F6002CA862 /* HistoricalDataVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoricalDataVC.xib; sourceTree = "<group>"; };
+		0487969727CEEA6F002CA862 /* HistoricalDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataVM.swift; sourceTree = "<group>"; };
+		0487969927CEEB5B002CA862 /* ConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModel.swift; sourceTree = "<group>"; };
+		0487969D27CEEDAE002CA862 /* ConversionHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionHistoryCell.swift; sourceTree = "<group>"; };
+		0487969E27CEEDAE002CA862 /* ConversionHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversionHistoryCell.xib; sourceTree = "<group>"; };
+		048796A127CEF438002CA862 /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		048796A627CF124D002CA862 /* HistoricalDataSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataSection.swift; sourceTree = "<group>"; };
+		048796AC27CF9426002CA862 /* MDI-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDI-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048796B627CF94AF002CA862 /* StubProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubProtocol.swift; sourceTree = "<group>"; };
+		048796B827CF94E5002CA862 /* Array+StubProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+StubProtocol.swift"; sourceTree = "<group>"; };
+		048796BB27CF95B7002CA862 /* CurrencyConversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionTest.swift; sourceTree = "<group>"; };
+		048796BE27CF9613002CA862 /* ConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModel.swift; sourceTree = "<group>"; };
+		048796C127CF96FD002CA862 /* MockedRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedRemoteDataSource.swift; sourceTree = "<group>"; };
+		048796C327CFA0F2002CA862 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		048796C527CFA0F2002CA862 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		048796C727CFA11C002CA862 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A92A530B7EF32C3296C27F4 /* Pods-MDI-Task-MDI-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDI-Task-MDI-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-MDI-Task-MDI-TaskTests/Pods-MDI-Task-MDI-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F481616621E5151C319A5FE /* Pods_MDI_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDI_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		919C13BDCEE5031098A6219C /* Pods_MDI_Task_MDI_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDI_Task_MDI_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B04CCFB6EF04663E78E45C /* Pods-MDI-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDI-Task.release.xcconfig"; path = "Target Support Files/Pods-MDI-Task/Pods-MDI-Task.release.xcconfig"; sourceTree = "<group>"; };
+		D0FDFCD95C526239EF7E010F /* Pods-MDI-Task-MDI-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDI-Task-MDI-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-MDI-Task-MDI-TaskTests/Pods-MDI-Task-MDI-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		E456DD9325615D7CC1F9E025 /* Pods-MDI-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDI-Task.debug.xcconfig"; path = "Target Support Files/Pods-MDI-Task/Pods-MDI-Task.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		048796A927CF9426002CA862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A1981F9694D57FEB6F065A /* Pods_MDI_Task_MDI_TaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				0413F60B27CAEE700060849F /* MDI-Task */,
+				048796AD27CF9426002CA862 /* MDI-TaskTests */,
 				0413F60A27CAEE700060849F /* Products */,
 				042C95754728CE504077454C /* Pods */,
 				39869DECB0244AB5B45DD229 /* Frameworks */,
@@ -64,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				0413F60927CAEE700060849F /* MDI-Task.app */,
+				048796AC27CF9426002CA862 /* MDI-TaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +141,7 @@
 		0413F62027CAEF4A0060849F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0487969227CEE1F9002CA862 /* HistoricalData */,
 				0413F62127CAEF840060849F /* CurrencyConversion */,
 			);
 			path = Scenes;
@@ -107,6 +162,8 @@
 			children = (
 				E456DD9325615D7CC1F9E025 /* Pods-MDI-Task.debug.xcconfig */,
 				98B04CCFB6EF04663E78E45C /* Pods-MDI-Task.release.xcconfig */,
+				3A92A530B7EF32C3296C27F4 /* Pods-MDI-Task-MDI-TaskTests.debug.xcconfig */,
+				D0FDFCD95C526239EF7E010F /* Pods-MDI-Task-MDI-TaskTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -115,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				046D141B27CAF5C600627A75 /* RatesResponse.swift */,
+				0487969927CEEB5B002CA862 /* ConversionModel.swift */,
+				048796A627CF124D002CA862 /* HistoricalDataSection.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,14 +190,83 @@
 			isa = PBXGroup;
 			children = (
 				046D142327CAF7D600627A75 /* RatesRemoteDataSource.swift */,
+				048796A127CEF438002CA862 /* LocalStorageManager.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0487969227CEE1F9002CA862 /* HistoricalData */ = {
+			isa = PBXGroup;
+			children = (
+				0487969327CEE2F6002CA862 /* HistoricalDataVC.swift */,
+				0487969427CEE2F6002CA862 /* HistoricalDataVC.xib */,
+				0487969727CEEA6F002CA862 /* HistoricalDataVM.swift */,
+				0487969B27CEED7F002CA862 /* Cells */,
+			);
+			path = HistoricalData;
+			sourceTree = "<group>";
+		};
+		0487969B27CEED7F002CA862 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0487969C27CEED8A002CA862 /* ConversionHistoryCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0487969C27CEED8A002CA862 /* ConversionHistoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				0487969D27CEEDAE002CA862 /* ConversionHistoryCell.swift */,
+				0487969E27CEEDAE002CA862 /* ConversionHistoryCell.xib */,
+			);
+			path = ConversionHistoryCell;
+			sourceTree = "<group>";
+		};
+		048796AD27CF9426002CA862 /* MDI-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				048796BD27CF95FE002CA862 /* Stubs */,
+				048796B527CF948D002CA862 /* Helpers */,
+				048796BA27CF957A002CA862 /* CurrencyConversionTest */,
+			);
+			path = "MDI-TaskTests";
+			sourceTree = "<group>";
+		};
+		048796B527CF948D002CA862 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				048796B627CF94AF002CA862 /* StubProtocol.swift */,
+				048796B827CF94E5002CA862 /* Array+StubProtocol.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		048796BA27CF957A002CA862 /* CurrencyConversionTest */ = {
+			isa = PBXGroup;
+			children = (
+				048796BB27CF95B7002CA862 /* CurrencyConversionTest.swift */,
+				048796C127CF96FD002CA862 /* MockedRemoteDataSource.swift */,
+			);
+			path = CurrencyConversionTest;
+			sourceTree = "<group>";
+		};
+		048796BD27CF95FE002CA862 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				048796BE27CF9613002CA862 /* ConversionModel.swift */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 		39869DECB0244AB5B45DD229 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				048796C727CFA11C002CA862 /* RxTest.framework */,
+				048796C327CFA0F2002CA862 /* RxSwift.framework */,
+				048796C527CFA0F2002CA862 /* RxTest.framework */,
 				7F481616621E5151C319A5FE /* Pods_MDI_Task.framework */,
+				919C13BDCEE5031098A6219C /* Pods_MDI_Task_MDI_TaskTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +293,26 @@
 			productReference = 0413F60927CAEE700060849F /* MDI-Task.app */;
 			productType = "com.apple.product-type.application";
 		};
+		048796AB27CF9426002CA862 /* MDI-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048796B427CF9426002CA862 /* Build configuration list for PBXNativeTarget "MDI-TaskTests" */;
+			buildPhases = (
+				C885E508DB725FAC12D5D820 /* [CP] Check Pods Manifest.lock */,
+				048796A827CF9426002CA862 /* Sources */,
+				048796A927CF9426002CA862 /* Frameworks */,
+				048796AA27CF9426002CA862 /* Resources */,
+				FA3ABB0DBC513B822AFE1557 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048796B127CF9426002CA862 /* PBXTargetDependency */,
+			);
+			name = "MDI-TaskTests";
+			productName = "MDI-TaskTests";
+			productReference = 048796AC27CF9426002CA862 /* MDI-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +325,10 @@
 				TargetAttributes = {
 					0413F60827CAEE700060849F = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					048796AB27CF9426002CA862 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0413F60827CAEE700060849F;
 					};
 				};
 			};
@@ -194,6 +346,7 @@
 			projectRoot = "";
 			targets = (
 				0413F60827CAEE700060849F /* MDI-Task */,
+				048796AB27CF9426002CA862 /* MDI-TaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,10 +356,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048796A027CEEDAE002CA862 /* ConversionHistoryCell.xib in Resources */,
+				0487969627CEE2F6002CA862 /* HistoricalDataVC.xib in Resources */,
 				0413F61927CAEE730060849F /* LaunchScreen.storyboard in Resources */,
 				0413F61627CAEE730060849F /* Assets.xcassets in Resources */,
 				0413F61427CAEE700060849F /* Main.storyboard in Resources */,
 				0413F62527CAEFB40060849F /* CurrencyConversionVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048796AA27CF9426002CA862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +414,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDI-Task/Pods-MDI-Task-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C885E508DB725FAC12D5D820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDI-Task-MDI-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3ABB0DBC513B822AFE1557 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDI-Task-MDI-TaskTests/Pods-MDI-Task-MDI-TaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDI-Task-MDI-TaskTests/Pods-MDI-Task-MDI-TaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDI-Task-MDI-TaskTests/Pods-MDI-Task-MDI-TaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +460,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487969F27CEEDAE002CA862 /* ConversionHistoryCell.swift in Sources */,
+				0487969827CEEA6F002CA862 /* HistoricalDataVM.swift in Sources */,
+				048796A227CEF438002CA862 /* LocalStorageManager.swift in Sources */,
+				048796A727CF124D002CA862 /* HistoricalDataSection.swift in Sources */,
 				046D141C27CAF5C600627A75 /* RatesResponse.swift in Sources */,
 				0413F62727CAF0100060849F /* CurrencyConversionVM.swift in Sources */,
+				0487969527CEE2F6002CA862 /* HistoricalDataVC.swift in Sources */,
+				0487969A27CEEB5B002CA862 /* ConversionModel.swift in Sources */,
 				046D141F27CAF70E00627A75 /* FetchRatesUseCase.swift in Sources */,
 				0413F60D27CAEE700060849F /* AppDelegate.swift in Sources */,
 				046D142427CAF7D600627A75 /* RatesRemoteDataSource.swift in Sources */,
@@ -268,7 +475,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		048796A827CF9426002CA862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048796C227CF96FD002CA862 /* MockedRemoteDataSource.swift in Sources */,
+				048796BC27CF95B7002CA862 /* CurrencyConversionTest.swift in Sources */,
+				048796B727CF94AF002CA862 /* StubProtocol.swift in Sources */,
+				048796B927CF94E5002CA862 /* Array+StubProtocol.swift in Sources */,
+				048796BF27CF9613002CA862 /* ConversionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048796B127CF9426002CA862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0413F60827CAEE700060849F /* MDI-Task */;
+			targetProxy = 048796B027CF9426002CA862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0413F61227CAEE700060849F /* Main.storyboard */ = {
@@ -464,6 +691,54 @@
 			};
 			name = Release;
 		};
+		048796B227CF9426002CA862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A92A530B7EF32C3296C27F4 /* Pods-MDI-Task-MDI-TaskTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D8A6QNLTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaghloul.MDI-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDI-Task.app/MDI-Task";
+			};
+			name = Debug;
+		};
+		048796B327CF9426002CA862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FDFCD95C526239EF7E010F /* Pods-MDI-Task-MDI-TaskTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D8A6QNLTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaghloul.MDI-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDI-Task.app/MDI-Task";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -481,6 +756,15 @@
 			buildConfigurations = (
 				0413F61E27CAEE730060849F /* Debug */,
 				0413F61F27CAEE730060849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048796B427CF9426002CA862 /* Build configuration list for PBXNativeTarget "MDI-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048796B227CF9426002CA862 /* Debug */,
+				048796B327CF9426002CA862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
