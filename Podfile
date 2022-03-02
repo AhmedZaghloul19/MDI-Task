@@ -9,5 +9,11 @@ target 'MDI-Task' do
 
     pod 'RxSwift', '6.5.0'
     pod 'RxCocoa', '6.5.0'
-
+    
+    pod 'RxDataSources', '~> 5.0'
+    
+    target 'MDI-TaskTests' do
+      pod 'RxTest' , '6.5.0'
+      pod 'RxBlocking' , '6.5.0'
+    end
 end

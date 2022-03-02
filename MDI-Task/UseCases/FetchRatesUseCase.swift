@@ -15,9 +15,9 @@ class FetchRatesUseCase {
         self.repository = repository
     }
 
-    func execute(completion:(RatesResponse?) -> Void) {
-        repository?.fetchRates(completion: { (response) in
-            completion(response)
+    func execute(completion: @escaping (RatesResponse?, Error?) -> Void) {
+        repository?.fetchRates(completion: { (response, error) in
+            completion(response, error)
         })
     }
 }

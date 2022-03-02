@@ -43,6 +43,7 @@ class CurrencyConversionVC: UIViewController {
         
         bindViewModel()
         viewModel?.getRates()
+        setupNavigationBar()
     }
     
     func bindViewModel() {
@@ -101,7 +102,37 @@ class CurrencyConversionVC: UIViewController {
                 self?.viewModel?.secondaryValueChanged(to: self?.valueSecondaryTextField.text ?? "")
             })
             .disposed(by: disposeBag)
+        
+        viewModel?.failureState
+            .bind(onNext: {[weak self] error in
+                guard !error.isEmpty else {return}
+                let alertController = UIAlertController(title: "Failed",
+                                                        message: error,
+                                                        preferredStyle: .alert)
+                let action = UIAlertAction(title: "Retry", style: .default) {
+                    UIAlertAction in
+                    self?.viewModel?.getRates()
+                }
+                alertController.addAction(action)
+                
+                self?.present(alertController, animated: true, completion: nil)
+            })
+            .disposed(by: disposeBag)
             
+    }
+    
+    func setupNavigationBar() {
+        let historyItem = UIBarButtonItem(image: UIImage(named: "list"),
+                                      style: UIBarButtonItem.Style.plain,
+                                      target: self,
+                                      action: #selector(showHistoryTapped))
+        navigationItem.rightBarButtonItem = historyItem
+    }
+    
+    @objc func showHistoryTapped() {
+        let vm = HistoricalDataVM()
+        let vc = HistoricalDataVC(viewModel: vm)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func switchCurrencies() {
